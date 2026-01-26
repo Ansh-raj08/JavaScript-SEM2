@@ -29,3 +29,45 @@ let arr2 = [4,5,6]
 let fiarr = [...arr,...arr2]
 console.log(fiarr)
 
+// modulus function
+
+let remainder = 5906%6;
+console.log(remainder)
+
+// XOR Function
+
+let int = 3^3;
+console.log(int)
+
+// Increment and Decrement Operators
+
+let a = 8;
+let b = ++a;
+let c = --a;
+console.log(a)
+console.log(b)
+console.log(c)
+
+// Assignment Operators
+
+let n = 7;
+n += 3;
+
+let m = 10;
+m -= 3;
+
+console.log(n)
+console.log(m)
+
+// Ternary Operator
+
+let age = 20;
+let canVote = age >= 18 ? "yes" : "no"
+console.log(canVote)
+
+// Nullish Operator
+
+let value = null;
+let defaultValue = "Null Hai";
+let result = value ?? defaultValue;
+console.log(result)
