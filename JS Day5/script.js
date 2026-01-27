@@ -71,3 +71,20 @@ let value = null;
 let defaultValue = "Null Hai";
 let result = value ?? defaultValue;
 console.log(result)
+
+// if statement
+
+let age2 = 20;
+if (age2>=20) {
+    console.log("You are an adult")
+}
+
+// if-else statement
+
+let isSnowing = true;
+if (isSnowing) {
+    console.log("Stay at home")
+} else {
+    console.log("You can go outside")
+}
+
