@@ -88,3 +88,94 @@ if (isSnowing) {
     console.log("You can go outside")
 }
 
+// Nested If-Else Statements
+
+let score = 70;
+if (score>=60) {
+    console.log("You passed the exam.");
+    if (score>=90) {
+        console.log("You got grade A.")
+    } else {
+        console.log("You got grade B.")
+    }
+} else {
+    console.log("You Failed the exam.")
+    console.log("Take a retest.")
+}
+
+// Cascaded If-Else Statement
+
+let grade = 'A';
+if (grade === 'A') {
+    console.log("Excellent! Good Job.")
+} else if (grade === 'B') {
+    console.log("Good Job!.")
+} else if (grade === 'C') {
+    console.log("Can do better.")
+} else {
+    console.log("You really really need improvement.")
+}
+
+// Switch Case
+
+let dayofweek = 'monday';
+switch (dayofweek) {
+    case 'monday':
+        console.log("First day of the week.");
+        break;
+    case 'wednesday':
+        console.log("Mid day of the week.");
+        break;
+    default:
+        console.log("Just a Weekday.")
+}
+
+// Break statement
+
+for (i=1; i<=10; i++) {
+    if (i===6){
+        break;
+    }
+    console.log(i)
+}
+
+// Continue Statement
+
+for (i=1; i<=10; i++) {
+    if (i===6) {
+        continue;
+    }
+    console.log(i)
+}
+
+// JS Maths Functions
+
+// Absolute ( turns any positive or negative function to positive.)
+
+Math.abs(-22)
+
+// sqrt - gives the square root of the given number
+
+Math.sqrt(64)
+
+// pow- power function ( x, y), x- given number, y- given power.
+
+Math.pow(2,3)
+
+// round- gives nearest integer
+
+Math.round(89.9000001889)
+
+// floor- takes the float(decimal) value to it's downward value, irrespective how close the float value is, if it's 3.9 then the output will be 3 and if it's 3.3 then also it's 3.
+
+Math.floor(3.9)
+
+// ceil- takes the float(decimal) value to it's upward value, irrespective how far the float value is, if it's 3.9 then the output will be 4 and if it's 3.3 then also it's 4.
+
+Math.ceil(3.3)
+
+// min- prints the minimum value from the given numbers.
+
+list = (7, 42, 15, 88, 3, 29, 64, 11, 95, 22, 50, 8, 77, 34, 19, 91, 46, 2, 63, 31);
+
+
