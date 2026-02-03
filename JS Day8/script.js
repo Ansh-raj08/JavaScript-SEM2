@@ -15,3 +15,4 @@ for(let i = 0; i<subHeading.length;i++) {
     subHeading[i].style.color="blue";
     subHeading[i].style.backgroundColor="green";
 }
+

@@ -41,3 +41,59 @@ Object.freeze(car); // can not add or change anything.
 car.colour = "Black";
 // console.log(car);
 
+// arr = [12,45,74]
+for(i=0; i<arr.length;i++) {
+    console.log(arr[i]);
+}
+
+//  divisibility checker.
+
+// arr = [2,6,4,1,44,66,87,90,54] //for even
+for(i=0;i<arr.length; i++) {
+    if (arr[i]%2===0)
+    console.log(arr[i])
+}
+
+// arr = [1,4,5,6,7,3,4,87,6,44,22,98,99] // for odd
+for(i=0;i<arr.length;i++){
+    if (arr[i]%2 !== 0)
+    console.log(arr[i])
+}
+
+// Sorting numbers in array. (ascending order)
+
+// let arr = [4,9,5,3,99,7,66,55,44,11]
+let c = 0;
+for (i=0;i<arr.length;i++) {
+    for (j=i+1;j<arr.length;j++) {
+        if (arr[i]>arr[j]) {
+            c = arr[i];
+            arr[i]=arr[j];
+            arr[j]=c;
+        }
+    }
+    console.log(arr[i])
+}
+
+let a = 5;
+for (i=0;i<15;i++){
+    console.log(a);
+}
+
+// Reverse function in js 
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+arr.reverse()
+console.log(arr)
+
+// matrix in js 
+
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+console.log(matrix[1][1])
+
+// 
